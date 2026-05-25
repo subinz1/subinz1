@@ -14,17 +14,6 @@ I work on CI/CD infrastructure and developer tooling for machine learning framew
 
 - **RHEL 9.6 CI for PyTorch** — Building a self-hosted CI/CD pipeline to run PyTorch's test suite on Red Hat Enterprise Linux.
 
-### Recent merged PRs
-
-| Repository | PR | Description |
-|---|---|---|
-| `pytorch/test-infra` | [#8110](https://github.com/pytorch/test-infra/pull/8110) | OOT HUD: ClickHouse queries, utility library, and unit tests |
-| `pytorch/test-infra` | [#8105](https://github.com/pytorch/test-infra/pull/8105) | ClickHouse schema for OOT workflow job table |
-| `pytorch/pytorch` | [#174653](https://github.com/pytorch/pytorch/pull/174653) | Output size overflow check for convolution operations |
-| `pytorch/pytorch` | [#173894](https://github.com/pytorch/pytorch/pull/173894) | Fix softplus numerical instability with large beta |
-| `pytorch/pytorch` | [#173888](https://github.com/pytorch/pytorch/pull/173888) | Fix RNN example to support backward pass |
-| `pytorch/pytorch` | [#171959](https://github.com/pytorch/pytorch/pull/171959) | Add `run_tests()` to elastic rendezvous test files |
-
 ### Tech
 
 `Python` `C++` `TypeScript` `React/Next.js` `ClickHouse` `DynamoDB` `AWS Lambda` `GitHub Actions` `Terraform` `PyTorch`
