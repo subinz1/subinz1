@@ -1,6 +1,6 @@
 # Hey, I'm Subin George
 
-**ML Infrastructure Engineer @ Red Hat** | PyTorch Contributor | India
+**CI/CD | PyTorch Contributor | India **
 
 I work on CI/CD infrastructure and developer tooling for machine learning frameworks. Currently building the **Out-of-Tree CI integration** for PyTorch's HUD — enabling third-party accelerator backends to surface their CI results alongside PyTorch's own test dashboard.
 
