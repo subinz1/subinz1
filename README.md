@@ -23,17 +23,4 @@ I work on CI/CD infrastructure and developer tooling for machine learning framew
 
 ---
 
-### GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=subinz1&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subinz1&layout=compact&theme=dark&hide_border=true" alt="Top Languages" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=subinz1&theme=dark&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
 <sub>Open to collaborating on PyTorch, ML infra, and open-source CI tooling.</sub>
