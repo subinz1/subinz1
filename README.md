@@ -4,6 +4,9 @@
 
 I work on CI/CD infrastructure and developer tooling for machine learning frameworks. Currently building the **Cross-Repository CI Relay (CRCR)** for PyTorch — a fully automated pipeline that triggers and tracks CI across downstream repositories whenever a PR is opened on `pytorch/pytorch`, with results flowing back to the [PyTorch CI HUD](https://hud.pytorch.org/crcr).
 
+Read what I am working on [now](now.md), browse [selected projects](projects.md),
+or see my [talks](talks.md).
+
 ---
 
 ### What I'm working on
@@ -20,6 +23,12 @@ I work on CI/CD infrastructure and developer tooling for machine learning framew
 
 <a href="https://github.com/pytorch"><img src="https://img.shields.io/badge/PyTorch-contributor-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch" /></a>
 <a href="https://github.com/TorchedHat"><img src="https://img.shields.io/badge/TorchedHat-member-181717?logo=github&logoColor=white" alt="TorchedHat" /></a>
+
+### Writing and talks
+
+- [Scaling PyTorch's Compatibility Promise: A Tiered Cross-Repository CI Relay for Out-of-Tree Backends](talks.md#pytorch-conference-north-america-2026) — PyTorch Conference North America 2026
+- [CRCR mockups and operator documentation](https://github.com/subinz1/CRCR)
+- [PyTorch CI HUD — CRCR](https://hud.pytorch.org/crcr)
 
 ### Tech
 
