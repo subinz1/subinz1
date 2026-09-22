@@ -28,6 +28,7 @@ or see my [talks](talks.md).
 
 ### Writing and talks
 
+- [Introducing Cross-Repository CI Relay: Scalable CI for PyTorch's Out-of-Tree Backends](https://pytorch.org/blog/introducing-cross-repository-ci-relay-scalable-ci-for-pytorchs-out-of-tree-backends/) — Official PyTorch blog
 - [Scaling PyTorch's Compatibility Promise: A Tiered Cross-Repository CI Relay for Out-of-Tree Backends](talks.md#pytorch-conference-north-america-2026) — PyTorch Conference North America 2026
 - [CRCR mockups and operator documentation](https://github.com/subinz1/CRCR)
 - [PyTorch CI HUD — CRCR](https://hud.pytorch.org/crcr)
