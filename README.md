@@ -11,20 +11,13 @@ or see my [talks](talks.md).
 
 ### What I'm working on
 
-- **[Cross-Repository CI Relay (CRCR)](https://github.com/pytorch/test-infra)** — Designed and built the relay system that connects upstream PyTorch events to downstream CI across the ecosystem. Key components: Callback Lambda (OIDC verification, state machine, rate limiting), HUD integration (React dashboard pages, ClickHouse queries, API routes), on-call bot, and CI-neutral callback action (GitHub Actions + Buildkite). Co-authored [RFC-0050](https://github.com/pytorch/rfcs/blob/master/RFC-0050-Cross-Repository-CI-Relay-for-PyTorch-Out-of-Tree-Backends.md), [RFC-0054](https://github.com/pytorch/rfcs/blob/master/RFC-0054-HUD-Integration-for-Out-of-Tree-CI-Results.md), and [RFC-0056](https://github.com/pytorch/rfcs/pull/98) (Nightly & Periodic CI).
+- **[Cross-Repository CI Relay (CRCR)](https://github.com/pytorch/test-infra)** — Designed and built the relay system that connects upstream PyTorch events to downstream CI across the ecosystem. Key components: Callback Lambda (OIDC verification, state machine, rate limiting), HUD integration (React dashboard pages, ClickHouse queries, API routes), on-call bot, and CI-neutral callback action (GitHub Actions + Buildkite). Co-authored [RFC-0050](https://github.com/pytorch/rfcs/blob/master/RFC-0050-Cross-Repository-CI-Relay-for-PyTorch-Out-of-Tree-Backends.md), [RFC-0054](https://github.com/pytorch/rfcs/blob/master/RFC-0054-HUD-Integration-for-Out-of-Tree-CI-Results.md), and [RFC-0056](https://github.com/pytorch/rfcs/pull/98) (Nightly & Periodic CI). [76+ authored PRs in `pytorch/test-infra`](https://github.com/pytorch/test-infra/pulls?q=is%3Apr+author%3Asubinz1).
 
 - **CRCR HUD Frontend** — Built the per-repo dashboard, metrics pages, and nightly health views in React/Next.js. Includes summary cards (pass rate, timeout rate, execution time), time-range selectors, repo tenure tracking, and PR/Nightly tab navigation — all backed by ClickHouse analytical queries.
 
 - **[RHEL CI for PyTorch](https://github.com/TorchedHat/pytorch-redhat-ci)** — Built a downstream CI pipeline that builds and tests PyTorch nightly on RHEL 9.6 using `podman` containers and self-hosted runners. Features delta-based test determination (heuristic + structural C++ call graph analysis), categorized test execution (CPU, Inductor, single-GPU, multi-GPU), Quay.io image registry, selective manual dispatch, and CRCR L2 integration for upstream HUD reporting.
 
-- **PyTorch Core Contributions** — Bug fixes and improvements across `torch.nn`, `torch.distributed`, and test infrastructure. Notable contributions include fixing softplus numerical instability, adding convolution overflow checks, and fixing OOT backend registration.
-
-### Contribution snapshot
-
-- **[76+ authored PRs in `pytorch/test-infra`](https://github.com/pytorch/test-infra/pulls?q=is%3Apr+author%3Asubinz1)** — CRCR, CI reliability, HUD, and developer-infrastructure work.
-- **[49+ authored PRs in `pytorch/pytorch`](https://github.com/pytorch/pytorch/pulls?q=is%3Apr+author%3Asubinz1)** — PyTorch core fixes and improvements.
-
-These counters include open, closed, and merged pull requests and are refreshed twice daily by a scheduled GitHub workflow.
+- **PyTorch Core Contributions** — Bug fixes and improvements across `torch.nn`, `torch.distributed`, and test infrastructure. Notable contributions include fixing softplus numerical instability, adding convolution overflow checks, and fixing OOT backend registration. [49+ authored PRs in `pytorch/pytorch`](https://github.com/pytorch/pytorch/pulls?q=is%3Apr+author%3Asubinz1).
 
 ### Organizations
 
