@@ -15,7 +15,7 @@ or see my [talks](talks.md).
 
 - **CRCR HUD Frontend** — Built the per-repo dashboard, metrics pages, and nightly health views in React/Next.js. Includes summary cards (pass rate, timeout rate, execution time), time-range selectors, repo tenure tracking, and PR/Nightly tab navigation — all backed by ClickHouse analytical queries.
 
-- **[RHEL CI for PyTorch](https://github.com/TorchedHat/pytorch-redhat-ci)** — Built a downstream CI pipeline that builds and tests PyTorch nightly on RHEL 9.6 using `podman` containers and self-hosted runners. Features delta-based test determination (heuristic + structural C++ call graph analysis), categorized test execution (CPU, Inductor, single-GPU, multi-GPU), Quay.io image registry, selective manual dispatch, and CRCR L2 integration for upstream HUD reporting.
+- **[RHEL CI for PyTorch](https://github.com/TorchedHat/pytorch-redhat-ci)** — Built a downstream CI pipeline that builds and tests PyTorch nightly in RHEL 9.8 containers for CPU and CUDA 13.2 using `podman` and self-hosted runners. Features delta-based test determination (heuristic + structural C++ call graph analysis), categorized test execution (CPU, Inductor, single-GPU, multi-GPU), Quay.io image registry, selective manual dispatch, and CRCR L2 integration for upstream HUD reporting.
 
 - **PyTorch Core Contributions** — Bug fixes and improvements across `torch.nn`, `torch.distributed`, and test infrastructure. Notable contributions include fixing softplus numerical instability, adding convolution overflow checks, and fixing OOT backend registration. 49+ authored PRs in `pytorch/pytorch`.
 
